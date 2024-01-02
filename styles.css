@@ -1,0 +1,76 @@
+body {
+
+    background-color: #FF6347;
+
+}
+
+header, footer {
+
+    background-color: #FF0000;
+
+}
+
+img {
+
+    width: 200px;
+
+    vertical-align: left;
+
+}
+
+.header-container {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: left;
+
+    padding: 10px; 
+
+}
+
+
+h1 {
+
+    color: white;
+
+}
+
+fieldset {
+
+    background-color: #FBF8FF;
+
+}
+
+fieldset p {
+
+    font-weight: bold;
+
+}
+
+legend {
+
+    background-color: white;
+
+    padding: 1px;
+
+    border: 1px solid #ddd;
+
+}
+
+label {
+
+    font-weight: bold;
+
+}
+
+footer {
+
+    Margin-top: 10px;
+
+    font-weight: bold;
+
+    text-align: center;
+
+}

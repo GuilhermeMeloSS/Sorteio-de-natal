@@ -1,0 +1,105 @@
+ <!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Amigo Secreto</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header-container">
+
+            <img src="images/img.noel.png" alt="papai noel">
+
+            <h1>Sorteio de Amigo Secreto</h1>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section>
+
+            <h3>Vamos realizar o sorteio do Amigo Secreto \0/</h3>
+
+            <form id="form">
+
+                <fieldset>
+
+                    <legend>Participantes</legend>
+
+                    <label for="">Insira o nome dos participantes do Amigo Secreto</label>
+
+                    <br>
+
+                    <label for="nomeParticipante">Nome:</label>
+
+                    <input type="text" id="nomeParticipante" />
+
+                    <button type="button" id="btnIncluir">Incluir</button>
+
+                    <br>
+
+                    <label for="">Participantes:</label>
+
+                    <br>
+
+                    <div class="participantes"></div>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Sorteio</legend>
+
+                    <label for="iniciarSorteio">Iniciar o Sorteio ---></label>
+
+                    <button type="button" id="btnSortear">Sortear</button>
+
+                    <hr>
+
+                    <label for="revelarAmigo">Revelar o amigo secreto de:</label>
+
+                    <input type="text" id="nomeParticipanteRevelar"/>
+
+                    <button type="button" id="btnRevelar">Mostrar</button>
+
+                    <br>
+
+                    <label for="">Revelados:</label>
+
+                    <div class="revelados"></div>
+
+                    <br>
+
+                    <label for="">Falta revelar o de:</label>
+
+                    <div class="falta"></div>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>SorteioSecreto</footer>
+
+</body>
+
+</html>
